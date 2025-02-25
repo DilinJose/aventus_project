@@ -8,8 +8,8 @@ const AppRouter = () => {
     return (
         <Routes>
 
-            <Route path="/signin" element={<SignIn />} />
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/" element={<SignIn />} />
+            <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/video" element={<VideoDetails />} />
 
 

@@ -360,7 +360,7 @@ const YoutubeClone = () => {
     }, [videoData]);
 
     const loadMoreVideos = useCallback(() => {
-        setCurrentPage(prevPage => prevPage + 1);
+       
     }, []);
 
 

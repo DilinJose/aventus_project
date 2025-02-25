@@ -22,7 +22,7 @@ export const loginUserAction = createAsyncThunk(
             if (response.data.status && response.data.status_code === 200) {
                 toast.success('Login Successful');
                 localStorage.setItem('token', response.data.data.token);
-                navigate("/");
+                navigate("/dashboard");
                 return response.data.data;
             } else {
                 toast.error('Login failed, check credentials');
